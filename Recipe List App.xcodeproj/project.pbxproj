@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		ED74D0D1265D2CDD00AEF196 /* RecipeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED74D0D0265D2CDD00AEF196 /* RecipeDetailView.swift */; };
+		ED74D11A2661809E00AEF196 /* RecipeTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED74D1192661809E00AEF196 /* RecipeTabView.swift */; };
 		EDDF700C265B9DD50063AEC3 /* Recipe_List_App.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDDF700B265B9DD50063AEC3 /* Recipe_List_App.swift */; };
 		EDDF700E265B9DD50063AEC3 /* RecipeListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDDF700D265B9DD50063AEC3 /* RecipeListView.swift */; };
 		EDDF7010265B9DD60063AEC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDDF700F265B9DD60063AEC3 /* Assets.xcassets */; };
@@ -20,6 +21,7 @@
 
 /* Begin PBXFileReference section */
 		ED74D0D0265D2CDD00AEF196 /* RecipeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailView.swift; sourceTree = "<group>"; wrapsLines = 0; };
+		ED74D1192661809E00AEF196 /* RecipeTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeTabView.swift; sourceTree = "<group>"; };
 		EDDF7008265B9DD50063AEC3 /* Recipe List App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Recipe List App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDDF700B265B9DD50063AEC3 /* Recipe_List_App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe_List_App.swift; sourceTree = "<group>"; };
 		EDDF700D265B9DD50063AEC3 /* RecipeListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeListView.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -86,6 +88,7 @@
 		EDDF701A265BA8560063AEC3 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				ED74D1192661809E00AEF196 /* RecipeTabView.swift */,
 				EDDF700D265B9DD50063AEC3 /* RecipeListView.swift */,
 				ED74D0D0265D2CDD00AEF196 /* RecipeDetailView.swift */,
 			);
@@ -200,6 +203,7 @@
 				EDDF700E265B9DD50063AEC3 /* RecipeListView.swift in Sources */,
 				EDDF700C265B9DD50063AEC3 /* Recipe_List_App.swift in Sources */,
 				EDDF7026265BBA7E0063AEC3 /* DataService.swift in Sources */,
+				ED74D11A2661809E00AEF196 /* RecipeTabView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
