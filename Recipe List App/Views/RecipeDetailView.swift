@@ -28,9 +28,10 @@ struct RecipeDetailView: View {
                             .fontWeight(.bold)
                             .padding(.bottom, 1.0)
                     }
-                    ForEach (recipe.ingredients, id:\.self) {
+                    ForEach (recipe.ingredients) {
                         item in
-                        Text("∗ " + item)
+                        Text("∗ " + item.name)
+                        //
                     }
                     //MARK: Divider
                     Divider()
